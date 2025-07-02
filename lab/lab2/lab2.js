@@ -3,7 +3,7 @@ let weight = Number(readline.question("Weight in kilograms: "));
 let height = Number(readline.question("Height in meters: "));
 let BMI = weight / (height * height);
 
-//2.1
+//2.1, 2.2
 if (BMI < 18.5) {
   console.log("Underweight");
   console.log(
