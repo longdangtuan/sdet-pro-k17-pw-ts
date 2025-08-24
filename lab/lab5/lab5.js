@@ -1,5 +1,7 @@
 const readline = require("readline-sync");
-const givenString = String(readline.question("Please enter your desire text:"));
+const givenString = String(
+  readline.question("Please enter your desire text: ")
+);
 
 newString = givenString.replace(/[,.]/g, " ");
 
