@@ -3,7 +3,7 @@ const givenString = String(
   readline.question("Please enter your desire text: ")
 );
 
-newString = givenString.replace(/[,.]/g, " ");
+const newString = givenString.replace(/[,.]/g, " ");
 
 const splitWords = newString.split(" ");
 const nonEmptyArray = splitWords.filter(function (word) {
