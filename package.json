@@ -18,6 +18,7 @@
   "homepage": "https://github.com/longdangtuan/sdet-pro-k17-pw-ts#readme",
   "description": "",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.2"
   }
 }
